@@ -1,0 +1,410 @@
+<!DOCTYPE html> <!--首页-->
+<html xmlns:wb="http://open.weibo.com/wb">
+    <head>
+    
+    <meta http-equiv="Cache-control" content="no-transform"/>
+<meta http-equiv="Cache-control" content="no-siteapp"/>
+    
+    <meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-store">
+<meta http-equiv="Cache" content="no-cache">
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>马连博的主页</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+         
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/team.css"/>
+        <link rel="stylesheet" type="text/css" href="css/adds.css">
+        <link rel="shortcut icon" type="text/css" href="images/myIco.ico" />
+         
+    	<script src="js/jquery-1.11.2.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="js/mine.js"></script>  
+          
+        <style>
+	
+		body{
+			/*background-image:url(images/bg1.jpg);*/
+			/*background-color:#7BBDFF;*/
+            background-color: #eee;
+		}
+		
+        .underline{
+			text-decoration:underline;
+		}
+		.panel-heading{
+			font-weight:bold;
+		}
+		.right-column-img{
+			padding: 0% 10% 5% 10%;
+		}
+		.mylist li{
+			line-height:20px;
+			padding:1px;
+		}
+		div.WB_widget.WB_follow_ex{
+			width:90px !important;
+			margin-top: 5px !important;
+			margin-bottom:-10px !important;
+		}
+		.follow_text{
+			width:40px !important;
+		}
+		.hidden{
+			display:none;
+		}
+        </style>    
+    </head>
+
+<body id="home" data-spy="scroll" data-target="#myNav" data-offset="50" onLoad="bodyLoad()">
+<nav id="myNav1"class="navbar navbar-inverse navbar-fixed-top">
+<div style="height:86px;width:100%;text-align:center;background-color:#002446" ><img  src="images/logo.png"></div>
+  <div style="border-top:1px solid #FFF" class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#home"><span style="font-family:Arial, Helvetica, sans-serif;color:#CCC" ><strong>首页&nbsp;&nbsp; 马连博</strong></span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li style="margin-left:15px"><a href="research_index.html" target="_self">科研论文</a></li>
+        <li style="margin-left:15px"><a href="projectInfo.html" target="_self">科研项目</a></li>   
+        <li style="margin-left:15px"><a href="team.html" target="_self">科研团队</a></li>  
+        <li style="margin-left:15px"><a href="progress.html" target="_self">研究进展</a></li>
+        <li style="margin-left:15px"><a href="enrollment.html" target="_self">招生信息</a></li>
+        <li style="margin-left:15px"><a href="ourjob.html" target="_self">服务与获奖</a></li>
+      <li style="margin-left:15px" class="dropdown">          
+          <a href="#" class="dropdown-toggle caret-after" data-toggle="dropdown" role="button" aria-expanded="false">会议期刊<span class="caret"></span></a> 
+          <ul class="dropdown-menu" role="menu">           
+            <li><a href="CCFTOPPeriodical.html" target="_self">CCF TOP期刊</a></li>
+            <li><a href="CCFTOPConference.html" target="_self">CCF TOP会议</a></li>
+          </ul>
+        </li> 
+        
+         <li style="margin-left:20px" class="dropdown">          
+          <a href="#" class="dropdown-toggle caret-after" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a> 
+          <ul class="dropdown-menu" role="menu">           
+            <li><a href="http://www.neu.edu.cn/" target="_blank">东北大学主页</a></li>
+            <li><a href="http://www.lib.neu.edu.cn/index.html" target="_blank">东北大学图书馆</a></li>
+             <li><a href="http://sc.neu.edu.cn/" target="_blank">东北大学软件学院</a></li>
+             <li><a href="http://www.graduate.neu.edu.cn/" target="_blank">东北大学研究生院</a></li>
+          </ul>
+        </li> 
+        
+         <li style="margin-left:15px"><a href="english.html" target="_self">English</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<!-- begin container -->
+<div class="container" id="exceptHead" style="margin-top:100px;box-shadow:0px 0px 20px #333333">
+
+<div class="row">
+  <div class="col-md-2" style="margin:15px 0px 0px 20px"> <br/><img src="images/Profile1.jpg" alt="Image About Me" width="100%" height="100%" class="img-responsive img-rounded center-block"/> </div>
+  <div class="col-md-9">
+  <div>
+    <h2><strong>&nbsp;&nbsp;&nbsp;马连博，教授，博导，美国斯坦福大学全球前2%顶尖科学家，辽宁省百千万人才工程</strong></h2>   </div>  <br/>
+  <div class="col-md-7" style="float: left;width: 49%">
+  <ul >
+                                        <li class="list-group-item"><strong>出生年月：1981.10</strong>                                                   </li><br/>
+                                        <li class="list-group-item"><strong>邮  箱：malb@swc.neu.edu.cn</strong>                                        </li><br/>
+                                        <li class="list-group-item"><strong>电  话：+86-024-83681822</strong>                                           </li><br/>
+                                        <li class="list-group-item"><strong>地  址：辽宁省沈阳市浑南区创新路195号东北大学浑南校区信息楼, 110169</strong>         </li>
+        </ul></div>
+      <div style="float: right;width: 49%">
+              <p><strong>[1]
+                  &nbsp;&nbsp;2011.3-2015.1
+              </strong></p>
+              <p><strong>
+                  中国科学院大学
+                  &nbsp;|&nbsp;
+                  工学
+                  &nbsp;|&nbsp;
+                  博士
+                  &nbsp;|&nbsp;
+                  博士研究生毕业
+              </strong></p>
+              <p><strong>[2]
+                  &nbsp;&nbsp;2004.9-2007.3
+              </strong></p>
+              <p><strong>
+                  东北大学
+                  &nbsp;|&nbsp;
+                  通信与信息系统
+                  &nbsp;|&nbsp;
+                  硕士
+                  &nbsp;|&nbsp;
+                  硕士研究生
+              </strong></p>
+              <p><strong>[3]
+                  &nbsp;&nbsp;2000.9-2004.7
+              </strong></p>
+              <p><strong>
+                  东北大学
+                  &nbsp;|&nbsp;
+                  信息与通信工程
+                  &nbsp;|&nbsp;
+                  学士学位
+                  &nbsp;|&nbsp;
+                  大学本科毕业
+              </strong></p>
+      </div>
+  <div class="col-md-3" style="float:right"><!--右边不知道放啥-->
+<!--  <span style="float:right;"><img src="./images/weChat.jpg" width="99%" height="99%" alt="扫码加微信"></span>-->
+
+  </div>
+  </div>
+</div> <!-- row1-->
+ 
+  
+ <div class="row" style="background-color:#FFF">
+ <div class="col-md-12">
+     <div><h2 class="head_3"></h2></div>
+ <div><h2 class="head_2">基本信息</h2></div>
+ <div class="content">
+ <p style="padding:3px 0;line-height: 30px">&emsp;&emsp;<span style="font-size:larger"><b>马连博</b></span>，教授（破格），博导，IEEE Senior Member，入选美国斯坦福大学《全球前2%顶尖科学家榜单》，辽宁省百千万人才工程-千层次，东北大学软件学院引进人才，辽宁省智能科学与智能系统重点实验室副主任，沈阳市边缘计算技术创新中心副主任，跨媒体人工智能研究所副所长，英国Surrey University 高级访问学者，国际期刊《Complex & Intelligent Systems 》（IF:5.8）副主编；以主要完成人获得天津市自然科学奖二等奖、中国自动化学会自然科学奖二等奖，中国仿真学会自然科学奖二等奖、中国科学院院长奖等；在IEEE TEVC、IEEE TCYB、IEEE TMC、IEEE TC、IEEE SC、ACM MM、NeurIPS、AAAI和《计算机学报》等专业学术期刊及顶级会议发表论文80多篇，代表作入选ESI高被引、ESI热点论文；主持科技部重点研发（国家863科技计划）项目课题、国家自然科学基金面上项目与青年基金等国家级和省部级项目等10余项；兼任中国计算机学会物联网专委会执行委员、中国自动化学会边缘计算专委会委员、中国仿真学会智能仿真优化与调度专委会委员、中国人工智能学会青工委委员、中国仿真创新应用大赛辽宁省赛区组委会、评审专家、辽宁省科技奖励通信评审专家、沈阳市标准化专家、中国计算机学会高级会员等。2017年12月破格评为教授。曾在中科院沈阳自动化所学习与工作，目前主要从事<b>神经架构搜索与计算智能、边缘计算与网络分析、知识表示与多模态学习</b>等研究工作。
+            <DIV style="TEXT-INDENT: 21pt">&nbsp;</DIV>
+     <span style="font-size:larger"><b>学术研究：</b></span></br>
+     <p style="padding:3px 0;line-height: 30px">&emsp;&emsp;目前已在<strong>IEEE </strong><strong style="white-space: normal;">Transactions</strong><strong> on Mobile Compuing</strong> (CCF <span style="font-family:Tahoma, sans-serif">A 类)</span>, <strong style="white-space: normal;">IEEE&nbsp;</strong><strong style="white-space: normal;">Transactions</strong><strong style="white-space: normal;">&nbsp;on Computers</strong>&nbsp;(CCF&nbsp;<span style="font-family: Tahoma, sans-serif;">A 类)</span>,&nbsp;<strong>IEEE <strong style="white-space: normal;">Transactions</strong> on Evolutionary Computation</strong> (中科院1区Top), <strong>IEEE <strong style="white-space: normal;">Transactions</strong> on Cybernetis</strong> (中科院1区Top),&nbsp;<strong style="text-wrap: wrap;">AAAI&nbsp;</strong><span style="text-wrap: wrap;">(CCF&nbsp;</span><span style="text-wrap: wrap; font-family: Tahoma, sans-serif;">A 类</span><span style="text-wrap: wrap; font-family: Tahoma, sans-serif;">)，</span><strong>ACM MM&nbsp;</strong>(CCF&nbsp;<span style="font-family: Tahoma, sans-serif;">A 类</span><span style="font-family: Tahoma, sans-serif;">)</span>,&nbsp;<strong>NeurIPS </strong>(CCF&nbsp;<span style="font-family:Tahoma, sans-serif">A 类)</span><span style="text-wrap: wrap; font-family: Tahoma, sans-serif;">,&nbsp;</span><strong>IEEE <strong style="white-space: normal;">Transactions</strong> on System, Man and Cybernetics:System</strong> &nbsp;(中科院1区Top), <strong>ACM Computing Surveys&nbsp;</strong>(中科院1区Top)，&nbsp;<strong style="white-space: normal;">IEEE T<strong>ransactions</strong>&nbsp;on Broadcasting</strong>&nbsp;(中科院1区),&nbsp;<strong style="white-space: normal;">IEEE T<strong style="white-space: normal;">ransactions</strong> on Cloud Computing</strong>, <strong>IEEE <strong style="white-space: normal;">Transactions</strong> on Emerging Topics in Computational Intelligence,&nbsp;IEEE Transactions on Network Science and Engineering, IEEE <strong style="white-space: normal;">Transactions</strong> on Artificial Intelligence</strong>,&nbsp;<strong>IEEE Transactions on Cognitive and Developmental Systems</strong>，<strong>ACM Transactions on Intelligent Systems and Technology，</strong><strong>IEEE Transactions on Computational Social Systems</strong>, Information Sciences, Knowledge-Based Systems, Computer Networks等知名期刊及会议上发表论文80余篇，其中，第一作者/通信作者发表SCI收录论文40余篇，<span style="color: rgb(255, 0, 0);">CCF A类/中科院1区30余篇</span>，<span style="color: rgb(255, 0, 0);">IEEE 汇刊长文25篇 <span style="text-wrap: wrap; color: rgb(0, 0, 0);">，</span>CCF A类10篇</span>；<span style="color: rgb(255, 0, 0);">ESI 热点论文4篇</span>，<span style="color: rgb(255, 0, 0);">ESI高被引论文5篇，</span>Google 引用2000余次。</p>
+     <DIV style="TEXT-INDENT: 21pt">&nbsp;</DIV>
+     <span style="font-size:larger"><b>社会服务：</b></span></br>
+     <p style="padding:3px 0;line-height: 30px">&emsp;&emsp;参与制定中德《智能制造/工业4.0预测性维护标准化路线图》白皮书、辽宁省地方标准 “工业数字化转型典型场景评估规范”（DB21/T 3870-2023）、辽宁省地方标准 “数字化车间和智能工厂评价通则”（DB21/T 3869-2023）；曾作为专家参与科技部十二五863/科技支撑计划专项指南编写组（2013）；与多名国内外知名专家、IEEE FELLOW等保持良好合作关系；担任CIS等多个国际期刊的副主编或客座副主编，在AAAI'2019，IJCAI2019，SEAL'2017，IEEE MSN'2018等国际会议担任TPC与Session Chairman等，同时担任AAAI, ACL, IEEE Trans. Evolutionary Computation, IEEE Trans. Cybernetics, TEEE Trans. Network and Service Management等顶级会议及权威期刊审稿人；曾在多个重要会议上(如CCF中国互联网年会-优秀青年学者论坛2018，CCF中国物联网大会-优秀青年学者论坛2021等)做主题报告。</p>
+     <DIV style="TEXT-INDENT: 21pt">&nbsp;</DIV>
+     <!--     &emsp;&emsp;目前已在IEEE Transactions on Mobile Compuing (CCF A 类), IEEE Transactions on Computers (CCF A 类), IEEE Transactions on Evolutionary Computation (中科院1区Top), IEEE Transactions on Cybernetis (中科院1区Top), AAAI (CCF A 类)，ACM MM (CCF A 类), NeurIPS (CCF A 类), IEEE Transactions on System, Man and Cybernetics:System  (中科院1区Top), ACM Computing Surveys (中科院1区Top)， IEEE Transactions on Broadcasting (中科院1区), IEEE Transactions on Cloud Computing, IEEE Transactions on Emerging Topics in Computational Intelligence, IEEE Transactions on Network Science and Engineering, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Cognitive and Developmental Systems，ACM Transactions on Intelligent Systems and Technology，IEEE Transactions on Computational Social Systems, Information Sciences, Knowledge-Based Systems, Computer Networks等知名期刊及会议上发表论文80余篇，其中，第一作者/通信作者发表SCI收录论文40余篇，CCF A类/中科院1区30余篇，IEEE 汇刊长文25篇 ，CCF A类10篇；ESI 热点论文4篇，ESI高被引论文5篇，Google 引用2000余次。-->
+
+<!--   &emsp;&emsp;&emsp;&emsp;目前已在IEEE Trans. on Mobile Compuing, IEEE Trans. on Cybernetis, ACL, IEEE Trans.   on SMC:System, IEEE Trans. on Emerging Topics in CI, Information Sciences,   Knowledge-Based Systems, JNCA, Applied Soft Comuting, IEEE   CEC等知名期刊及顶级会议上发表论文80余篇，其中，第一作者/通信作者发表SCI收录论文30余篇，CCF A类/中科院1区13篇，IEEE   汇刊长文9篇；曾作为专家参与科技部十二五863/科技支撑计划专项指南编写组（2013）；与多名国内外知名专家、IEEE   FELLOW等保持良好合作关系；担任多个国际期刊与国内学报的客座副主编或编委，在AAAI'2019，IJCAI2019，SEAL'2017，IEEE   MSN'2018等国际会议担任TPC与Session Chairman等，同时担任AAAI, ACL, IEEE Trans. Evolutionary   Computation, IEEE Trans. Cybernetics, TEEE Trans. Network and Service   Management等顶级会议及权威期刊审稿人；曾在多个重要会议上(如CCF中国互联网年会-优秀青年学者论坛等)做主题报告。 <br>-->
+<!--               <DIV style="TEXT-INDENT: 21pt">&nbsp;</DIV>-->
+
+<!-- &emsp;&emsp;&emsp;&emsp;现主持国家自然科学基金面上项目、国家自然科学基金青年项目、中央基本科研业务费&#45;&#45;国家优青培育项目、国家863重点项目子课题、辽宁省自然科学基金、华为创新计划专项课题、中科院重点实验室开放基金、东北大学双一流建设子项目、东北大学软件学院优秀骨干教师项目等课题，曾参与完成国家863重点项目2项、国家科技支撑计划1项、国家自然科学基金2项及省市科技计划项目2项、国家发改委智能制造专项等科研项目。<br>-->
+<!--                          <DIV style="TEXT-INDENT: 21pt">&nbsp;</DIV>-->
+
+<!--  &emsp;&emsp;&emsp;&emsp;曾获中国科学院院长奖、中国科学院所级“国家优青”培养后备人才、东北大学基本业务费“国家优青人才培育计划”、Elsevier权威期刊杰出审稿人奖、东北大学“五四”青年奖章、辽宁省教学成果奖一等奖、辽宁省自然科学学术成果奖、王玉伦奖教金、中科院沈阳自动化所冠名奖，国际数学建模二等奖指导教师，辽宁省优秀硕士论文指导教师，ICSI国际会议最佳学生论文奖等。</p>-->
+ </div>
+  </div>
+  </div> <!-- row -->
+  
+<div class="row">
+ <div class="col-md-12">
+     <div><h2 class="head_3"></h2></div>
+ <div>
+   <h2 class="head_2">科学研究</h2></div>
+ <div class="content">
+ <div class="col-md-5">
+   <div class="panel-body">
+        <p><strong>基本概况:</strong></p>
+      <div style="float:left;"> 
+       <ul>
+
+           <li class="list-group-item" style="padding-bottom: 1px;padding-top: 5px">       <h4>科研奖励</h4>           </li>
+               <li> <h5>天津市自然科学奖二等奖，2022</h5>               </li>
+               <li> <h5>中国自动化学会自然科学奖二等奖，2022</h5>                      </li>
+               <li> <h5>中国仿真学会自然科学奖二等奖，2022</h5>            </li>
+	       <li> <h5>IEEE 计算机学会年度优秀论文奖/最佳论文奖亚军，2023</h5>            </li>
+	       <li> <h5>中国科学院院长奖，2015</h5>            </li>
+	        <li> <h5>国际会议ICSI 2021最佳学生论文奖 ，2021年</h5>            </li>
+	        <li> <h5>国际会议DMBD最佳研讨会论文奖，2022</h5>            </li>
+
+                <li class="list-group-item" style="padding-bottom: 1px;padding-top: 5px">       <h4>科研项目</h4>           </li>
+                <li> <h5>煤科总院科技专项课题，2024-2026</h5>            </li>
+	       <li> <h5>辽宁省揭榜挂帅“工业软件”重大专项课题，2024-2026</h5>               </li>
+               <li> <h5>国家自然科学基金面上项目，2018-2022</h5>                      </li>
+               <li> <h5>国家自然科学基金青年项目，2016-2019</h5>            </li>
+               <li> <h5>国家863重点项目课题，2014-2017</h5>            </li>
+               <li> <h5>华为创新计划专项课题，2019-2020</h5>            </li>
+	       
+<!--         <strong class="list-group-item">作为负责人主持：</strong>
+    <!--       <li class="list-group-item">辽宁省揭榜挂帅“工业软件”重大专项课题</li>
+	<!--   <li class="list-group-item">国家自然科学基金面上项目</li>
+          <!-- <li class="list-group-item">国家自然科学基金青年项目</li>
+          <!-- <li class="list-group-item">中央基本科研业务费--国家优青培育项目</li>
+      <!--     <li class="list-group-item">国家863重点项目课题</li>
+      <!--     <li class="list-group-item">辽宁省自然基金及科技攻关项目</li>
+       <!--    <li class="list-group-item">华为创新计划专项课题</li>
+       <!--     <li class="list-group-item">中科院重点实验室开放基金</li>
+         <!--   <li class="list-group-item">东北大学双一流建设子项目</li>
+           <!-- <li class="list-group-item">东北大学软件学院优秀骨干教师项目等课题</li>
+           <li class="list-group-item">曾参与完成：国家863重点项目、国家科技支撑计划</li>
+           <li class="list-group-item">国家863重点项目2项、国家科技支撑计划1项</li>
+         <!--   <li class="list-group-item">国家自然科学基金2项及省市科技计划项目2项</li>
+         <!-- <li class="list-group-item">国家发改委智能制造专项</li>
+
+           <!--        <li>国家自然科学基金项目2项</li>-->
+<!--         <li>国家863重点项目课题1项</li>-->
+<!--          <li>华为创新研究计划1项</li>-->
+<!--           <li>教育部中央基本科研业务费-国家优秀青年基金培育1项、重点科学研究引导1项、国防引导1项</li>-->
+<!--           <li>辽宁省自然基金项目-原优秀人才培育1项</li>-->
+<!--            <li>东北大学双一流建设标志性成果项目、建设专项子课题</li>-->
+         </ul>
+<!--             <ul>-->
+<!--       <strong>作为参与人完成：</strong>-->
+<!--       <li>国家863计划重点项目2项</li>-->
+<!--       <li>国家科技支撑计划项目1项</li>-->
+<!--       <li>国家自然科学基金目3项</li>-->
+<!--       </ul>    -->
+       </div></div></div>
+ <div class="col-md-5" style="float:right"><div class="panel-body">
+        <p><strong>研究领域:</strong></p>
+      <div> 
+       <ul>
+           <li class="list-group-item" style="padding-bottom: 1px;padding-top: 5px">       <h4>计算智能与机器学习优化</h4>           </li>
+               <li> <h5>神经架构搜索</h5>                      </li>
+               <li> <h5>神经网络压缩</h5>            </li>
+	       <li> <h5>联邦学习优化</h5>               </li>
+                <li> <h5>数据驱动多目标优化</h5>               </li>
+           <li class="list-group-item" style="padding-bottom: 1px;padding-top: 5px">        <h4>边缘计算与网络分析</h4>                    </li>
+               <li> <h5>云边协同资源管理</h5>               </li>
+               <li> <h5>边缘计算任务卸载</h5>                      </li>
+               <li> <h5>边缘网络视频流处理</h5>            </li>
+	        <li> <h5>社交网络数据分析</h5>            </li>
+<!--           <li class="list-group-item">         <h4>多模态学习与自然语言处理</h4>         </li>-->
+           <li class="list-group-item" style="padding-bottom: 1px;padding-top: 5px">        <h4>知识表示与多模态学习</h4>         </li>
+           <li> <h5>知识挖掘</h5>               </li>
+               <li> <h5>知识图谱</h5>                      </li>
+               <li> <h5>多模态计算</h5>            </li>
+               <li> <h5>大模型在医疗诊断、工业制造的应用</h5>            </li>
+
+<!--           <li class="list-group-item">         <h4>知识图谱与自然语言处理分析</h4>-->
+<!--</li>-->
+<!--            <li class="list-group-item">         <h4>工业资源调度仿真优化</h4>-->
+<!--</li>-->
+         </ul>
+            
+       </div></div></div>
+ </div>
+  </div> 
+  </div>
+  
+  <div class="row" style="background-color:#FFF">
+ <div class="col-md-12">
+     <div><h2 class="head_3"></h2></div>
+ <div><h2 class="head_2">研究团队</h2></div>
+ <div class="content">
+<!-- <div class="panel-body">-->
+<!--              <div><strong>计算智能与自然学习团队:</strong>专注于人工智能基础理论与网络应用研究，开放式合作方式，知名教授+博导+博士+硕士+优秀本科生的人员体系</div>-->
+<!--              <div>&nbsp;</div>-->
+<!--              <div><strong>培养方式：</strong>合作导师+博士+硕士+优秀本科生</div>-->
+<!--              <div>&nbsp;</div>-->
+<!--              <div><strong>主研方向：</strong>（1）神经架构搜索与智能计算；（2）边缘计算与网络分析；（3）云计算与大数据分析；（4）知识表示与多模态学习</div>-->
+<!--              <div>&nbsp;</div>-->
+<!--              <div><strong>合作导师</strong>：与多名海内外专家（<strong>IEEE Fellow2人，IEEE Senior Member 1人，杰青1人</strong>）保持长期合作关系。</div>-->
+<!--             -->
+<!--              <div align="center"><br>-->
+<!--              </div>-->
+<!--       	</div>-->
+<!--        <p align="center" style="font-family:Arial, Helvetica, sans-serif;font-size:24px;color:#000"><strong><em>加 入 我 们 ！！！</em></strong></p>-->
+<!-- </div>-->
+     <div>
+         <b>计算智能与网络优化团队:</b><br/><br/>
+
+     专注于人工智能基础理论与网络应用研究，开放式合作方式，知名教授+博导+博士+硕士+优秀本科生的人员体系<br/><br/>
+
+     培养方式：合作导师+博士+硕士+优秀本科生<br/><br/>
+
+     主研方向：（1）神经架构搜索与智能计算；（2）边缘计算与网络分析；（3）云计算与大数据分析；（4）知识表示与多模态学习<br/><br/>
+
+     合作导师：<br/>&emsp;&emsp;&emsp;&emsp;&emsp;金耀初，教授，IEEE Fellow，英国萨里大学 （访学合作导师）<br/><br/>
+
+     　　　　　史玉回，教授，博导，IEEE Fellow, 南方科技大学<br/><br/>
+
+     　　　　　杨圣祥，教授，博导，长江学者，英国 De Montfort University<br/><br/>
+
+ &emsp;&emsp;&emsp;&emsp;&emsp;	   喻果，研究员，南京工业大学/英国萨里大学博士<br/><br/>
+	     &emsp;&emsp;&emsp;&emsp;&emsp; 谢国洋，算法经理，宁德时代智能制造部<br/><br/>
+
+
+         &emsp;&emsp;&emsp;&emsp;&emsp;陆智超，助理教授，香港城市大学<br/><br/>
+
+     　　　　　
+
+         <b>团队公众号（介绍国际前沿研究热点、分享精彩论文等，欢迎关注与交流）：</b><br/><br/><br/>
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="images/团队二维码.jpg">
+     </div>
+  </div>
+  </div> <!-- row -->
+
+
+ <div class="row">
+   <div class="col-md-12">
+       <div><h2 class="head_3"></h2></div>
+   <h2 class="head_2">指导学生</h2><br/>
+   </div>
+   <div class="content">
+  <div class="panel panel-info">
+             <ul class="list-group">
+                <li class="list-group-item">
+			                  <p><STRONG>学生获奖： </STRONG></p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023睿抗机器人开发者大赛（RAICOM）全国总决赛编程技能竞赛项目一等奖，国家级，2023年</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国际数学建模M奖(一等奖)，国际，2023年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蓝桥杯全国软件和信息技术专业大赛全国总决赛二等奖、三等奖，2023年</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蓝桥杯全国软件和信息技术专业大赛辽宁赛区一等奖、二等奖、三等奖，2023年</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三届辽宁省大学生程序设计竞赛 一等奖，省级，2022年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全国大学生数学建模大赛辽宁省赛区（本科组）二等奖、三等奖，省级，2022年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辽宁省优秀硕士学位论文奖，省级，2021年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国际数学建模二等奖，国际，2022年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国际数学建模二等奖，国际，2021年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ICSI国际会议最佳学生论文奖，国际，2021年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;研究生国家奖学金4人/次，2019-2021年；</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	东北大学优秀硕士学位论文奖，校级，2020年；</p>
+<!--                   <p>1：秉着“宁缺毋滥”的原则，欢迎积极进取、富有理想的优秀学生加入我们；</p>
+                  <p>2：建议事先了解一下人工智能、优化算法、智能网络与大数据分析等研究方向，确认对此感兴趣。欢迎有一定数学基础、软件设计经验的同学加入我们。 </p> -->
+                </li>
+<!--                 <li class="list-group-item">培养方式：1）根据兴趣，研究分组：基础理论+系统应用；2）与海外学者合作，联合指导；3）表现优秀者，可推荐海外深造</li> -->
+            </ul>
+        </div>
+   	</div>
+  </div> <!-- row -->
+    
+ <div class="row">
+   <div class="col-md-12">
+       <div><h2 class="head_3"></h2></div>
+   <h2 class="head_2">招生信息</h2>
+   </div>
+   <div class="content">
+  <div class="panel panel-info">
+             <ul class="list-group">
+                <li class="list-group-item">
+                  <p><STRONG>招生说明： </STRONG></p>
+                  <p>1：秉着“宁缺毋滥”的原则，欢迎积极进取、富有理想的优秀学生加入我们；</p>
+                  <p>2：建议事先了解一下人工智能、优化算法、智能网络与大数据分析等研究方向，确认对此感兴趣。欢迎有一定数学基础、软件设计经验的同学加入我们。 </p>
+                </li>
+                <li class="list-group-item">培养方式：1）根据兴趣，研究分组：基础理论+系统应用；2）与海外学者合作，联合指导；3）表现优秀者，可推荐海外深造</li>
+            </ul>
+        </div>
+   	</div>
+  </div> <!-- row -->
+  
+</div>
+<div style="height:50px;background-color:#333"></div>
+
+</div>
+</body>
+</html>
