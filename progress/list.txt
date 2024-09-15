@@ -1,6 +1,8 @@
 ﻿{
   "data": [
 
+["20240915","课题组新增ESI热点/高被引论文","学术成果","https://mp.weixin.qq.com/s/VOuqaM-GGW58f876MjXrsA"],
+
 ["20180611","A Scalar Projection and Angle-Based Evolutionary Algorithm for Many-Objective Optimization Problems","群智算法","progress/articles/20180611张慧.htm"],
 
 ["20180628","ICSI 2018: The Ninth International Conference on Swarm Intelligence","群智算法","progress/articles/20180628王瑞.htm"],
