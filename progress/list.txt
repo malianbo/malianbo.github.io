@@ -1,6 +1,8 @@
 ﻿{
   "data": [
 
+["20241007","课题组牵头完成的项目荣获2023辽宁省科学技术进步奖二等奖","学术成果","https://mp.weixin.qq.com/s/RsuBpzRerQQ3jXK30AF5PA"],
+
 ["20240919","课题组马连博教授连续入选《全球前2%顶尖科学家榜单》","学术交流","https://mp.weixin.qq.com/s/Y8IhfVzozNFo31xlF_tBvA"],
 
 ["20240915","课题组新增ESI热点/高被引论文","学术成果","https://mp.weixin.qq.com/s/VOuqaM-GGW58f876MjXrsA"],
