@@ -1,6 +1,8 @@
 ﻿{
   "data": [
 
+["20241207","2023-2024年度东北大学软件学院马连博教授课题组指导的博士生，荣获多项奖学金荣誉","学术成果","https://mp.weixin.qq.com/s/PVZZ6TXG3cpM_JcxB99mkg"],
+
 ["20241007","课题组牵头完成的项目荣获2023辽宁省科学技术进步奖二等奖","学术成果","https://mp.weixin.qq.com/s/RsuBpzRerQQ3jXK30AF5PA"],
 
 ["20240919","课题组马连博教授连续入选《全球前2%顶尖科学家榜单》","学术交流","https://mp.weixin.qq.com/s/Y8IhfVzozNFo31xlF_tBvA"],
