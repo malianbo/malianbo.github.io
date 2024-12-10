@@ -1,6 +1,8 @@
 ﻿{
   "data": [
 
+["20241210","课题组论文被AAAI2025接收：从架构角度重新审视 3D 异常检测的多模态融合","学术成果","https://mp.weixin.qq.com/s/ufTzuOFr_QsHA0ABzGKOiQ"],
+
 ["20241207","2023-2024年度东北大学软件学院马连博教授课题组指导的博士生，荣获多项奖学金荣誉","学术成果","https://mp.weixin.qq.com/s/PVZZ6TXG3cpM_JcxB99mkg"],
 
 ["20241007","课题组牵头完成的项目荣获2023辽宁省科学技术进步奖二等奖","学术成果","https://mp.weixin.qq.com/s/RsuBpzRerQQ3jXK30AF5PA"],
