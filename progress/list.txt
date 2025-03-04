@@ -1,6 +1,10 @@
 ﻿{
   "data": [
 
+["20250218","CMFNAS 被演化计算顶刊 TEVC 录用","学术成果","https://mp.weixin.qq.com/s/qkkaWqFo9j-KBqiaZnX-ZQ"],
+
+["20250217","OGL被CCF A类期刊IEEE Transactions on Computers 录用","学术成果","https://mp.weixin.qq.com/s/hxxV3m-aeh4gE2JiBRpzdA"],
+
 ["20250106","东北大学计算智能与网络优化课题组2024年度成果简报","学术成果","https://mp.weixin.qq.com/s/S6rYSC27w1yGD8IdkEgzJQ"],
 
 ["20250105","【喜讯】课题组李楠博士入选首批中国科协青托工程专项计划","学术交流","https://mp.weixin.qq.com/s/24wMsapv3K06cxvQjIq7Bw"],
