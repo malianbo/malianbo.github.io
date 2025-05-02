@@ -1,5 +1,6 @@
 ﻿{
   "data": [
+["20250502","[News+3] 实验室ICML+1，IJCAI+2","学术成果","https://mp.weixin.qq.com/s/p-wXvJciPDPFlZCM4GiD_Q"],
 
 ["20250218","CMFNAS 被演化计算顶刊 TEVC 录用","学术成果","https://mp.weixin.qq.com/s/qkkaWqFo9j-KBqiaZnX-ZQ"],
 
