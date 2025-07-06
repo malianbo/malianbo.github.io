@@ -1,5 +1,9 @@
 ﻿{
   "data": [
+["20250706","[News] TBCIM被CCF A类期刊 TON 录用","学术成果","https://mp.weixin.qq.com/s/c99PQhpIccs0lR9GC8RjeQ"],
+
+["20250626","[News] 实验室一篇论文被CCF A类会议 ICCV 2025 录用","学术成果","https://mp.weixin.qq.com/s/nC_mX1HQGYQJ_AKZkZ3Efw"],
+
 ["20250502","[News+3] 实验室ICML+1，IJCAI+2","学术成果","https://mp.weixin.qq.com/s/p-wXvJciPDPFlZCM4GiD_Q"],
 
 ["20250218","CMFNAS 被演化计算顶刊 TEVC 录用","学术成果","https://mp.weixin.qq.com/s/qkkaWqFo9j-KBqiaZnX-ZQ"],
