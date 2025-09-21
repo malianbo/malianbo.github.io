@@ -1,8 +1,8 @@
 ﻿{
   "data": [
-["20250920","课题组马连博教授连续3年（2023-2025）入选《全球前2%顶尖科学家榜单》","学术成果","https://mp.weixin.qq.com/s/Rhwnm4T3F-0TZ6mbLEqk7g"],
+["20250920","课题组马连博教授连续3年（2023-2025）入选《全球前2%顶尖科学家榜单》","学术交流","https://mp.weixin.qq.com/s/Rhwnm4T3F-0TZ6mbLEqk7g"],
 
-["20250918","[News] GMPQ-TE被CCF A类会议 NeurIPS接收","学术交流","https://mp.weixin.qq.com/s/B9q3YL4ciiEdpcQGYK-i5w"],
+["20250918","[News] GMPQ-TE被CCF A类会议 NeurIPS接收","学术成果","https://mp.weixin.qq.com/s/B9q3YL4ciiEdpcQGYK-i5w"],
 
 ["20250815","[News] HF-MNAS被CCF A类期刊 TIP 录用","学术成果","https://mp.weixin.qq.com/s/r6650eRS5Kgh9AuRsAVjRQ"],
 
