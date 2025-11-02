@@ -1,5 +1,7 @@
 ﻿{
   "data": [
+["20251029","[News]课题组一篇论文被中科院SCI一区TOP期刊TNNLS录用","学术成果","https://mp.weixin.qq.com/s/KgS1OE55N5r110bZ_f2lgA"],
+
 ["20250920","课题组马连博教授连续3年（2023-2025）入选《全球前2%顶尖科学家榜单》","学术交流","https://mp.weixin.qq.com/s/Rhwnm4T3F-0TZ6mbLEqk7g"],
 
 ["20250918","[News] GMPQ-TE被CCF A类会议 NeurIPS接收","学术成果","https://mp.weixin.qq.com/s/B9q3YL4ciiEdpcQGYK-i5w"],
