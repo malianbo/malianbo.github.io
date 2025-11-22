@@ -1,5 +1,9 @@
 ﻿{
   "data": [
+["20251122","Call for Paper "2026 IJCNN Special Session"","学术交流","https://mp.weixin.qq.com/s/kQUvUYi8PqGkkL4EXPfg9Q"],
+
+["20251122","Call for Paper "2026 CEC Special Session"","学术交流","https://mp.weixin.qq.com/s/a_xQHOMGD_knOE_TrIPLFQ"],
+
 ["20251108","[News] 实验室一篇论文被CCF A类会议 AAAI 2026 录用","学术成果","https://mp.weixin.qq.com/s?__biz=Mzg4MTcyOTYzNQ==&tempkey=MTM0N19kTS9EaERoZWdxTXJKNG5sb3lrYzZEbWstNzF3QmsyZTBmbldqeWJ4YVpteFgxMllfbHRzRnB3Rng0bmZnYnJfd2FYS293VWl4UXdYVW8zV05NYmlkSi1McmFFLVNXdy1aaXpOcGZCSUwtRTRvbFQzS1J1dWRVdVc3MUk5UDRlWG5YeXk2c25HdXl5TmZzdnVuWUdqTHpzMHp4dGVfS0lnRE9fMENnfn4%3D&chksm=4e15969ce9c58a9259331758b1ad157587b009c615eabc2ed2f26ab29b3cc123ede465c46cd2&mpshare=1&scene=1&srcid=1108BqiNuD9DrtpAvg9c824N&sharer_shareinfo=971b19529624984f9e11aed265d9f1f1&sharer_shareinfo_first=bf96b260726218f70008ad4544625290#wechat_redirect"],
 
 ["20251029","[News]课题组一篇论文被中科院SCI一区TOP期刊TNNLS录用","学术成果","https://mp.weixin.qq.com/s/KgS1OE55N5r110bZ_f2lgA"],
