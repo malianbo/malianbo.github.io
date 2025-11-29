@@ -1,5 +1,7 @@
 ﻿{
   "data": [
+["20251129","[News+2] 实验室TMC+1，TEVC+1","学术成果","https://mp.weixin.qq.com/s/F5Zv-OgIdoT0kEDh2ETvfg"],
+
 ["20251122","Call for Paper '2026 IJCNN Special Session' ","学术交流","https://mp.weixin.qq.com/s/kQUvUYi8PqGkkL4EXPfg9Q"],
 
 ["20251122","Call for Paper '2026 CEC Special Session' ","学术交流","https://mp.weixin.qq.com/s/a_xQHOMGD_knOE_TrIPLFQ"],
